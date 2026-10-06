@@ -1,0 +1,28 @@
+#### WORKFLOW #####
+# Name of the Workflow
+name: CICD
+
+#### JOBS ####
+jobs:
+    code:
+    ### STEPS ###
+    runs-on: ubuntu-latest
+     steps:
+        name: Code checkout
+        run: echo "Code checkout done"
+    build:
+    runs-on: ubuntu-latest
+      steps:
+        name: Code checkout
+        run: echo "Code checkout done"
+    test:
+    runs-on: ubuntu-latest
+      steps:
+        name: Code checkout
+        run: echo "Code checkout done"
+    deploy:
+    runs-on: ubuntu-latest
+      steps:
+        name: Code checkout
+        run: echo "Code checkout done"
+    
